@@ -1,0 +1,113 @@
+@import url('reset.css');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.youtube-logo {
+  height: 20px;
+  margin-left: -420px;
+}
+
+.search-bar {
+  display: flex;
+  flex-grow: 1;
+  /* margin: 0 2rem 0 2rem; */
+}
+
+.menu-icons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu-channel-icon {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background-color: #aaa;
+}
+
+main {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+  gap: 20px;
+
+}
+
+.content {
+  flex-direction: column;
+}
+
+.title-video {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0 10px 0;
+}
+
+.botoes {
+  margin: 10px 0 10px 0;
+
+
+}
+
+.video-details h1 {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.video-details p {
+  font-size: .77rem;
+  color: rgb(133, 133, 133);
+
+}
+
+aside {
+  display: flex;
+
+}
+
+.sidecard {
+  flex-direction: column;
+}
+
+.infovideos {
+  margin-left: 10px;
+}
+
+.infovideos h1 {
+  font-size: .9rem;
+}
+
+.infovideos h3 {
+  font-size: .77rem;
+  margin: 0.5rem 0 0.5rem 0;
+  color: rgb(133, 133, 133);
+
+}
+
+.infovideos p {
+  font-size: .77rem;
+  color: rgb(133, 133, 133);
+
+}
